@@ -9,12 +9,10 @@
 - In this tutorial we will use Client-1 and DC-1 to do a few exercises for the sake of understanding DNS a bit better
 
 
-<h2>Environments and Technologies Used</h2>
+<h2>Requirements</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- Active Directory running in Azure on a virtual machine (DC-1)
+- A client machine running in Azure on a virtual machine (Client-1) and joined to the domain
 
 <h2>Operating Systems Used </h2>
 
@@ -23,15 +21,11 @@
 
 
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Practice Exercises</h2>
 
-<h3>Step 1: Setup Resources in Azure</h3>
+<h3>A-Record Exercise</h3>
 
-- Create two Virtual Machines
-    - 1st Virtual Machine will be the Domain Controller
-       - Name: DC-1
-       - Image: Windows Server 2022
-       - Take note of the Virtual Network (Vnet) that gets created at this time.
+**Step 1:** Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)
        
 <p align="center">
 <img src="https://i.imgur.com/tvu44Yp.png" height="70%" width="70%" alt="Azure Free Account"/>
