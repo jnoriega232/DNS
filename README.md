@@ -9,10 +9,13 @@
 - In this tutorial we will use Client-1 and DC-1 to do a few exercises for the sake of understanding DNS a bit better
 
 
-<h2>Requirements</h2>
+<h2>Environments and Technologies Used</h2>
 
-- Active Directory running in Azure on a virtual machine (DC-1)
-- A client machine running in Azure on a virtual machine (Client-1) and joined to the domain
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Active Directory Domain Services
+- Command Prompt
+
 
 <h2>Operating Systems Used </h2>
 
@@ -20,12 +23,17 @@
 - Windows 10 (21H2)
 
 
+<h2>Requirements</h2>
+
+- Active Directory running in Azure on a virtual machine (DC-1)
+- A client machine running in Azure on a virtual machine (Client-1) and joined to the domain
+
 
 <h2>Practice Exercises</h2>
 
-<h3>A-Record Exercise</h3>
+<h3><ins>A-Record Exercise</ins></h3>
 
-<h3>Overview (What we will be doing)</h3>
+<h3>Overview (What we will be doing):</h3>
 
 - Inspect DNS A-Records on the server (hostname to IP address mappings)
 - Create some of our own A-Records on the server and observe them from the client
