@@ -47,4 +47,8 @@
 <img src="https://i.imgur.com/CZBuWaw.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
-
+**Step 3:** From Client-1 try to ping the computer name "mainframe" (currently nonexistent)
+- Search and open Command Prompt
+  - ping mainframe
+  - notice it fails
+ 
