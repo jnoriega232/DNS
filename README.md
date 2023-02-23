@@ -47,8 +47,17 @@
 <img src="https://i.imgur.com/CZBuWaw.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
-**Step 3:** From Client-1 try to ping the computer name "mainframe" (currently nonexistent)
+**Step 3:** From Client-1 try to ping the hostname "mainframe" (currently nonexistent)
 - Search and open Command Prompt
-  - ping mainframe
+  - ping "mainframe"
   - notice it fails
  
+ When Client-1 tries to ping nonexistent hostname "mainframe"
+  1. It checks the local DNS cache (no result)
+  2. It checks the host file (no result)
+  3. It checks the DNS server assigned to the Network Interface Card (no result)
+
+<p align="center">
+<img src="https://i.imgur.com/BmGemOx.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
