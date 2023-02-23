@@ -61,3 +61,8 @@
 <img src="https://i.imgur.com/BmGemOx.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
+**Step 4:** Nslookup mainframe and notice that it fails (no DNS record)
+
+<p align="center">
+<img src="https://i.imgur.com/OdKI56J.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
