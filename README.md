@@ -66,8 +66,14 @@
   
   
  2. It checks the host file (no result)
-  
-  
+  - Right-click the Start menu > Run > c:\windows\system32\drivers\etc\hosts > OK
+    - Select Notepad > OK
+    - Scroll down to see list of mappings of IP addresses to names (by default this host file is empty)
+
+ <p align="center">
+<img src="https://i.imgur.com/7XZ7FjY.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/KV57s2s.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
  3. It checks the DNS server assigned to the Network Interface Card (no result)
 
 <p align="center">
