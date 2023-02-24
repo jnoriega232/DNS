@@ -84,4 +84,12 @@
 <img src="https://i.imgur.com/CUW3Q8A.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/u5qY0og.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
+- We will manually create a new A-Record
+  - Right-click near current list and select "New Host (A or AAAA)..." 
+  - Name: mainframe
+  - IP address: 10.0.0.4 (We will set it to DC-1's private IP address for a successful ping)
+  - Select Add Host
 
+<p align="center">
+<img src="https://i.imgur.com/ZYWfLE8.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/sFmduHK.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
