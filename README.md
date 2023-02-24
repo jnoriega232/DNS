@@ -76,8 +76,9 @@
   - Go to Tools > DNS
   - On the left hand side, select and expand DC-1 > expand Forward Lookup Zones > select mydomain.com (here you can see the current list of A-Records
 
-*Forward Lookup Zones = hostname to IP address mapping*
-*Reverse Lookup Zones = IP address to hostname mapping*
+
+**Note: Forward Lookup Zones = hostname to IP address mapping & Reverse Lookup Zones = IP address to hostname mapping**
+
 
 <p align="center">
 <img src="https://i.imgur.com/CUW3Q8A.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/u5qY0og.png" height="70%" width="70%" alt="Azure Free Account"/>
