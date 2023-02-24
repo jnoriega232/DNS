@@ -93,3 +93,9 @@
 <p align="center">
 <img src="https://i.imgur.com/ZYWfLE8.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/sFmduHK.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
+- You should now be able to see "mainframe" in our list of A-Records
+
+<p align="center">
+<img src="https://i.imgur.com/pZ2sjFi.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
