@@ -60,28 +60,27 @@
   - ping "mainframe"
   - notice it fails
  
- When Client-1 tries to ping nonexistent hostname "mainframe"
- 
  <p align="center">
 <img src="https://i.imgur.com/BmGemOx.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
-  
- 1. It checks the local DNS cache (no result)
-  
-  
- 2. It checks the host file (no result)
-  - Right-click the Start menu > Run > c:\windows\system32\drivers\etc\hosts > OK
-    - Select Notepad > OK
-    - Scroll down to see list of mappings of IP addresses to names (by default this host file is empty)
-
- <p align="center">
-<img src="https://i.imgur.com/7XZ7FjY.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/KV57s2s.png" height="70%" width="70%" alt="Azure Free Account"/>
-</p>
-
- 3. It checks the DNS server assigned to the Network Interface Card (no result)
 
 **Step 4:** Nslookup mainframe and notice that it fails (no DNS record)
 
 <p align="center">
 <img src="https://i.imgur.com/OdKI56J.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
+**Step 5:** Create a DNS A-Record on DC-1 for "mainframe" and have it point to DC-1's private IP address
+
+- Go back to DC-1 and open Server Manager
+  - Go to Tools > DNS
+  - On the left hand side, select and expand DC-1 > expand Forward Lookup Zones > select mydomain.com (here you can see the current list of A-Records
+
+*Forward Lookup Zones = hostname to IP address mapping*
+*Reverse Lookup Zones = IP address to hostname mapping*
+
+<p align="center">
+<img src="https://i.imgur.com/CUW3Q8A.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/u5qY0og.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
+
