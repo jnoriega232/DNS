@@ -61,6 +61,10 @@
   - notice it fails
  
  When Client-1 tries to ping nonexistent hostname "mainframe"
+ 
+ <p align="center">
+<img src="https://i.imgur.com/BmGemOx.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
   
  1. It checks the local DNS cache (no result)
   
@@ -75,10 +79,6 @@
 </p>
 
  3. It checks the DNS server assigned to the Network Interface Card (no result)
-
-<p align="center">
-<img src="https://i.imgur.com/BmGemOx.png" height="70%" width="70%" alt="Azure Free Account"/>
-</p>
 
 **Step 4:** Nslookup mainframe and notice that it fails (no DNS record)
 
