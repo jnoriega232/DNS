@@ -99,3 +99,9 @@
 <p align="center">
 <img src="https://i.imgur.com/pZ2sjFi.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
+**Step 6:** Go back to Client-1 and try to ping "mainframe". Observe that it works.
+
+<p align="center">
+<img src="https://i.imgur.com/knKbNzY.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
