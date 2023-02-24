@@ -105,3 +105,9 @@
 <p align="center">
 <img src="https://i.imgur.com/knKbNzY.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
+- Now if we nslookup mainframe we can see DC-1's server returned mainframe's record
+
+<p align="center">
+<img src="https://i.imgur.com/udxqW6n.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
