@@ -8,6 +8,13 @@
 - DNS is integrated with Active Directory and automatically got installed on DC-1 in the last tutorial [here](https://github.com/jnoriega232/configure-ad)
 - In this tutorial we will use Client-1 and DC-1 to do a few exercises for the sake of understanding DNS a bit better
 
+<h3>Overview (What we will be doing):</h3>
+
+- Inspect DNS A-Records on the server (hostname to IP address mappings)
+- Create some of our own A-Records on the server and observe them from the client
+- Delete records from server and inspect/clear the client DNS cache to gain understanding
+- Touch on "CNAME" records (mapping one name to another name)
+- Discuss Root Hints
 
 <h2>Environments and Technologies Used</h2>
 
@@ -31,16 +38,7 @@
 
 <h2>Practice Exercises</h2>
 
-<h3><ins>A-Record Exercise</ins></h3>
-
-<h3>Overview (What we will be doing):</h3>
-
-- Inspect DNS A-Records on the server (hostname to IP address mappings)
-- Create some of our own A-Records on the server and observe them from the client
-- Delete records from server and inspect/clear the client DNS cache to gain understanding
-- Touch on "CNAME" records (mapping one name to another name)
-- Discuss Root Hints
-	
+<h3><ins>A-Record Exercise</ins></h3>	
 
 
 **Step 1:** Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)
