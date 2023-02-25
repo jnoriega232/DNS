@@ -119,3 +119,10 @@
 <p align="center">
 <img src="https://i.imgur.com/L5gEFUA.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
+-If we scroll down we can see the record of mainframe has resolved
+  -We can see mainframe's record name: mainframe.mydomain.com maps to A (Host) Record: 10.0.0.4
+  
+<p align="center">
+<img src="https://i.imgur.com/WeStr8p.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
