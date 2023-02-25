@@ -111,3 +111,11 @@
 <p align="center">
 <img src="https://i.imgur.com/udxqW6n.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
+<h3><ins>Local DNS Cache Exercise</ins></h3>
+
+- In Client-1 use Command Propmt to enter the comand "ipconfig /displaydns" to see the local DNS cache
+
+<p align="center">
+<img src="https://i.imgur.com/L5gEFUA.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
