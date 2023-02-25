@@ -98,7 +98,7 @@
 <img src="https://i.imgur.com/pZ2sjFi.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
-**Step 6:** Go back to Client-1 and try to ping "mainframe". Observe that it works.
+**Step 6:** Go back to Client-1 and try to ping "mainframe". Observe that it works
 
 <p align="center">
 <img src="https://i.imgur.com/knKbNzY.png" height="70%" width="70%" alt="Azure Free Account"/>
@@ -111,6 +111,15 @@
 </p>
 
 <h3><ins>Local DNS Cache Exercise</ins></h3>
+
+**Step 1:** Go back to DC-1 and change mainframe's record address to 8.8.8.8
+
+- Double-click mainframe's A-Record we made > update it to 8.8.8.8 > Apply > OK
+
+<p align="center">
+<img src="https://i.imgur.com/MdmlW71.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
 
 - In Client-1 use Command Propmt to enter the comand "ipconfig /displaydns" to see the local DNS cache
 
