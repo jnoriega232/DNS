@@ -118,7 +118,14 @@
 
 <p align="center">
 <img src="https://i.imgur.com/MdmlW71.png" height="70%" width="70%" alt="Azure Free Account"/>
+<img src="https://i.imgur.com/oFIIzDh.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
+**Step 2:** Go back to Client-1 and ping "mainframe" again. Observe that it still pings the old address
+
+
+
+
 
 
 - In Client-1 use Command Propmt to enter the comand "ipconfig /displaydns" to see the local DNS cache
@@ -127,9 +134,10 @@
 <img src="https://i.imgur.com/L5gEFUA.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
--If we scroll down we can see the record of mainframe has resolved
+-If we scroll down we can see the record "mainframe" has resolved
   -We can see mainframe's record name: mainframe.mydomain.com maps to A (Host) Record: 10.0.0.4
   
 <p align="center">
 <img src="https://i.imgur.com/WeStr8p.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
