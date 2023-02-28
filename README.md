@@ -136,8 +136,8 @@
 <img src="https://i.imgur.com/L5gEFUA.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
--If we scroll down we can see the record "mainframe" has resolved
-  -We can see mainframe's record name: mainframe.mydomain.com maps to A (Host) Record: 10.0.0.4
+- If we scroll down we can see the record "mainframe" has resolved
+  - We can see mainframe's record name: mainframe.mydomain.com maps to A (Host) Record: 10.0.0.4
   
 <p align="center">
 <img src="https://i.imgur.com/WeStr8p.png" height="70%" width="70%" alt="Azure Free Account"/>
@@ -146,7 +146,7 @@
 **Step 4:** Flush the DNS cache (ipconfig /flushdns). Observe the cache becomes empty.
 
 - In order to flush the DNS cache, we need to open Command Prompt as an administrator. Then execute the command "ipconfig /flushdns"
-  -Observe it says "Successfully flushed the DNS Resolver Cache"
+  - Observe it says "Successfully flushed the DNS Resolver Cache"
 
 <p align="center">
 <img src="https://i.imgur.com/X5zbQ2Z.png" height="70%" width="70%" alt="Azure Free Account"/>
