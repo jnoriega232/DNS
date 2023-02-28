@@ -130,7 +130,7 @@
 
 **Step 3:** Observe the local DNS cache
 
-- In Client-1 use Command Propmt to enter the comand "ipconfig /displaydns" to see the local DNS cache
+- In Client-1 use Command Propmt to enter the command "ipconfig /displaydns" to see the local DNS cache
 
 <p align="center">
 <img src="https://i.imgur.com/L5gEFUA.png" height="70%" width="70%" alt="Azure Free Account"/>
@@ -151,4 +151,16 @@
 <p align="center">
 <img src="https://i.imgur.com/X5zbQ2Z.png" height="70%" width="70%" alt="Azure Free Account"/>
 <img src="https://i.imgur.com/z92VcMe.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
+- If we follow up with the command "ipconfig /displaydns" we can observe the cache is empty
+
+<p align="center">
+<img src="https://i.imgur.com/hdgk58L.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
+**Step 5:** Attempt to ping "mainframe" again. Observe the address of the new record is now showing up
+
+<p align="center">
+<img src="https://i.imgur.com/HwgNsMv.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
