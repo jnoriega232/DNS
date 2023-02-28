@@ -200,3 +200,4 @@
 <img src="https://i.imgur.com/iYJCerq.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
+That's all for this tutorial! Thanks for tuning in!
