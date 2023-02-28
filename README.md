@@ -123,7 +123,9 @@
 
 **Step 2:** Go back to Client-1 and ping "mainframe" again. Observe that it still pings the old address
 
-
+<p align="center">
+<img src="https://i.imgur.com/QKNZr9q.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
 
 
 
