@@ -14,7 +14,7 @@
 - Create some of our own A-Records on the server and observe them from the client
 - Delete records from server and inspect/clear the client DNS cache to gain understanding
 - Touch on "CNAME" records (mapping one name to another name)
-- Discuss Root Hints
+
 
 <h2>Environments and Technologies Used</h2>
 
