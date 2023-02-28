@@ -72,7 +72,7 @@
 
 - Go back to DC-1 and open Server Manager
   - Go to Tools > DNS
-  - On the left hand side, select and expand DC-1 > expand Forward Lookup Zones > select mydomain.com (here you can see the current list of A-Records
+  - On the left hand side, select and expand DC-1 > expand Forward Lookup Zones > select mydomain.com (here you can see the current list of A-Records)
 
 
 **Note: Forward Lookup Zones = hostname to IP address mapping & Reverse Lookup Zones = IP address to hostname mapping**
@@ -163,4 +163,19 @@
 
 <p align="center">
 <img src="https://i.imgur.com/HwgNsMv.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
+<h3><ins>CNAME Record Exercise</ins></h3>	
+
+**Step 1:** Go back to DC-1 and create a CNAME record that points the host "search" to "www.google.com"
+
+- Go back to DC-1 and in DNS Manager we will create a CNAME record
+    - Right-click near current list and select "New Alias (CNAME)..." 
+    - Name: search
+    - Associate with www.google.com
+    - Select OK
+
+<p align="center">
+<img src="https://i.imgur.com/FuBSHYd.png" height="70%" width="70%" alt="Azure Free Account"/>
+<img src="https://i.imgur.com/Az9WCJQ.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
