@@ -143,3 +143,12 @@
 <img src="https://i.imgur.com/WeStr8p.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
 
+**Step 4:** Flush the DNS cache (ipconfig /flushdns). Observe the cache becomes empty.
+
+- In order to flush the DNS cache, we need to open Command Prompt as an administrator. Then execute the command "ipconfig /flushdns"
+  -Observe it says "Successfully flushed the DNS Resolver Cache"
+
+<p align="center">
+<img src="https://i.imgur.com/X5zbQ2Z.png" height="70%" width="70%" alt="Azure Free Account"/>
+<img src="https://i.imgur.com/z92VcMe.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
