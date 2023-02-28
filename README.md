@@ -128,7 +128,7 @@
 </p>
 
 
-
+**Step 3:** Observe the local DNS cache
 
 - In Client-1 use Command Propmt to enter the comand "ipconfig /displaydns" to see the local DNS cache
 
