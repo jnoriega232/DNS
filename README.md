@@ -188,3 +188,15 @@
 
 **Step 2:** Go back to Client-1 and attempt to ping "search",observe the results of the CNAME record
 
+- You will notice "search" resolves to "www.google.com" which has the IP address 142.251.40.36
+
+<p align="center">
+<img src="https://i.imgur.com/0GbnRbh.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
+**Step 3:** On Client-1, nslookup "seach", observe the results of the CNAME record
+
+<p align="center">
+<img src="https://i.imgur.com/iYJCerq.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
