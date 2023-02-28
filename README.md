@@ -179,3 +179,12 @@
 <img src="https://i.imgur.com/FuBSHYd.png" height="70%" width="70%" alt="Azure Free Account"/>
 <img src="https://i.imgur.com/Az9WCJQ.png" height="70%" width="70%" alt="Azure Free Account"/>
 </p>
+
+- You can see the CNAME that has been created
+
+<p align="center">
+<img src="https://i.imgur.com/J5EYVuT.png" height="70%" width="70%" alt="Azure Free Account"/>
+</p>
+
+**Step 2:** Go back to Client-1 and attempt to ping "search",observe the results of the CNAME record
+
